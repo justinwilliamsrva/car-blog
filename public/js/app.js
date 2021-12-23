@@ -31015,9 +31015,58 @@ var render = function () {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", [_vm._v("Post ")])
+  return _vm._m(0)
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      {
+        staticClass:
+          "container mx-auto px-4 w-full md:w-3/4 lg:w-3/5 xl:w-1/2 mt-20",
+      },
+      [
+        _c("div", [
+          _c("div", { staticClass: "text-lg text-gray-600" }, [
+            _vm._v("By Me"),
+          ]),
+          _vm._v(" "),
+          _c("h1", { staticClass: "text-5xl mt-10 font-bold mb-12" }, [
+            _vm._v("Title"),
+          ]),
+          _vm._v(" "),
+          _c(
+            "p",
+            { staticClass: "text-grey-700 pb-3 mb-12 whitespace-pre-line" },
+            [_vm._v("\n            The content\n        ")]
+          ),
+          _vm._v(" "),
+          _c("div", { staticClass: "mb-24 flex" }, [
+            _c("div", { staticClass: "mr-6" }, [
+              _c("img", {
+                staticClass: "w-16 h-16 rounded-full",
+                attrs: { src: "/storage/faces/ahmad.jpg", alt: "ahmad" },
+              }),
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "flex flex-col justify-center" }, [
+              _c("div", { staticClass: "text-xl text-gray-600" }, [
+                _vm._v("Written by"),
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "text-gray-600" }, [
+                _vm._v("Published in LInks on Date"),
+              ]),
+            ]),
+          ]),
+        ]),
+      ]
+    )
+  },
+]
 render._withStripped = true
 
 
