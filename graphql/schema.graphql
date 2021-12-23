@@ -19,14 +19,14 @@ type User {
     email: String!
     created_at: DateTime!
     updated_at: DateTime!
-    posts: [Post!]!
+    posts: [Post!]! @hasMany
 }
 type Topic{
 
 id: ID!
 name: String!
 slug: String!
-posts: [Post!]!
+posts: [Post!]! @hasMany
 
 }
 type Post{
@@ -37,8 +37,8 @@ content: String!
 lead: String!
 created_at: DateTime!
     updated_at: DateTime!
-    author: User!
-    topic: Topic!
+    author: User! @belongsTo
+    topic: Topic! @belongsTo
 
 
 }
