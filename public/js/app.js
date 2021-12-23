@@ -30935,7 +30935,7 @@ var render = function () {
         "container mx-auto px-4 w-full md:w-3/4 lg:w-3/5 xl:w-1/2 my-20",
     },
     [
-      _c("h2", { staticClass: "text-4xl" }, [_vm._v("All Posts")]),
+      _c("h2", { staticClass: "text-4xl" }, [_vm._v("All Postss")]),
       _vm._v(" "),
       _vm.$apollo.loading
         ? _c("div", [_vm._v("Loading")])
