@@ -1,7 +1,7 @@
 <template>
     <div class="container mx-auto px-4 w-full md:w-3/4 lg:w-3/5 xl:w-1/2 mt-20">
         <div>
-            <div class="text-lg text-gray-600">By {{post.author.name}} in {{post.topic.name}} - 3 hours ago </div>
+            <div class="text-lg text-gray-600">By By {{post.author.name}} in {{post.topic.name}} - 3 hours ago </div>
             <h1 class="text-5xl mt-10 font-bold mb-12">{{post.title}}</h1>
             <p class="text-grey-700 pb-3 mb-12 whitespace-pre-line">
                {{post.content}}
